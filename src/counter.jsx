@@ -4,6 +4,7 @@ function Counter() {
   const [count, setCount] = useState(0);
 
   return (
+    
     <div className="counter-box">
       <p>Counter: {count}</p>
       <button onClick={() => setCount(count + 1)}>+</button>
